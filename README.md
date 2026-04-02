@@ -89,7 +89,6 @@ Create a `.env` file with the following variables:
 
 ### Service URLs (Internal)
 - `DESIGNER_BACKEND_URL` - Designer backend service URL (e.g., http://designer-backend:80)
-- `WORKBENCH_BACKEND_URL` - Workbench backend URL (e.g., http://workbench-backend:80)
 - `RUNNER_URL` - Runner service URL (e.g., http://runner:80)
 
 ### Frontend URLs
@@ -144,7 +143,6 @@ DEFAULT_MODEL=openai
 
 # Service URLs (Internal - Docker network)
 DESIGNER_BACKEND_URL=http://designer-backend:80
-WORKBENCH_BACKEND_URL=http://workbench-backend:80
 RUNNER_URL=http://runner:80
 
 # Frontend URLs (External)
